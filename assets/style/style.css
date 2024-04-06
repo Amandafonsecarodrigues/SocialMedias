@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #141414;
+    font-family: "Inter", sans-serif;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.junt{
+    display: flex;
+}
+
+.container{
+    background-color: #1F1F1F;
+    width: 390px;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 2rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.container .dados{
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: rgb(235, 235, 208);
+}
+.container .dados .dados-texto h3{
+    padding-bottom: 0.3rem;
+    padding-top: 1rem;
+}
+
+.container .dados .dados-texto p{
+    padding-bottom: 1rem;
+}
+
+.container .dados .dados-foto img{
+    width: 180px;
+    border-radius: 50%
+}
+
+.btn-sociais button{
+    margin: 0.7rem 0;
+    border-style: none;
+    background-color: #1F1F1F;
+    padding: 1rem 7rem;
+    border-radius: 1.7rem;
+    width: 400px;
+    font-weight: 600;
+    color: rgb(235, 235, 208);
+    border: 2px solid #B4D249;
+    transition: color 0.4s linear;
+}
+
+.btn-sociais button a:hover{
+    cursor: pointer;
+    color: #B4D249;
+}
+
+
+#text{
+    color: #B4D249;
+}
+
+a{
+    color: rgb(235, 235, 208);
+    text-decoration: none;
+}
+
+@media (max-width: 600px){
+    .container{
+        width: 300px;
+    }
+
+    .btn-sociais button{
+        padding: 1rem 4rem;
+        width: 300px;
+    }
+}
+
+
+@media (max-width: 380px){
+
+    .container{
+        width: 240px;
+
+    }
+
+    .btn-sociais button{
+        padding: 1rem 4rem;
+        width: 250px;
+    }
+}
